@@ -1,0 +1,457 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    list-style: none !important;
+}
+
+main {
+    background-color: #c5c5c546;
+}
+
+nav {
+    font-family: 'Dela Gothic One', "cursive" !important;
+    box-shadow: 0px 0px 3px 3px #c5c5c5;
+    padding: 1.5rem 5rem !important;
+}
+
+nav ul button {
+    background-color: #105673 !important;
+    color: #000 !important;
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 0px 30px !important;
+    box-shadow: none !important;
+    border: none !important;
+    font-size: larger !important;
+    font-weight: bolder !important;
+}
+
+nav ul button:focus {
+    box-shadow: 0px 0px 3px 1px !important;
+}
+
+.section-one {
+    background: url(../images/burj.jpg) no-repeat;
+    background-size: cover;
+    height: 45rem;
+    background-position: 0 -10rem;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.positioned-section {
+    width: 80%;
+    box-shadow: 0px 0px 3px 1px #929292;
+    margin-top: -5rem !important;
+    z-index: 1;
+    margin-bottom: 5rem !important;
+}
+
+.carousel-item,
+.c-item {
+    padding: 1rem 0rem !important;
+}
+
+.pre {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.carousel-item {
+    border-radius: .6rem;
+    padding-top: 0px !important;
+    margin: 0 !important;
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+    display: none !important;
+}
+
+.pre:focus {
+    box-shadow: 0px 0px 3px 2px #105673;
+    outline: none;
+}
+
+.post:focus {
+    box-shadow: 0px 0px 3px 2px #929292;
+    outline: none;
+}
+
+.post {
+    background-color: #105673;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.section-main-container {
+    margin: 5rem auto !important;
+}
+
+.p-right {
+    margin-right: 2rem !important;
+}
+
+.card-section-one {
+    background: url(../images/beach-3.jpg);
+    height: 60vh;
+    background-size: cover;
+    margin-right: 3rem !important;
+    position: relative;
+}
+
+.card-section-two {
+    background: url(../images/beach-2.jpg);
+    height: 60vh;
+    margin-right: 3rem !important;
+    background-size: cover;
+}
+
+.card-section-three {
+    background: url(../images/beach-1.jpg);
+    height: 60vh;
+    background-size: cover;
+}
+
+.section-main-text {
+    position: absolute;
+    bottom: 0;
+    background-color: #02526B;
+    color: #fff;
+    width: 80%;
+    left: 3rem;
+}
+
+.grid-section-container {
+    height: max-content;
+    /* margin-left: 11rem !important; */
+    overflow-x: hidden;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100vw;
+    grid-gap: 2rem;
+    margin-left: 11rem !important;
+}
+
+.grid-img-one {
+    background: url(../images/grid-img-one.png);
+    background-size: cover;
+    position: relative;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 400px;
+}
+
+.grid-img-one .div {
+    position: absolute;
+    bottom: 0;
+    background-color: #105673;
+    width: 100%;
+}
+
+.grid-img-two {
+    background: url(../images/grid-img-two.jpg);
+    background-blend-mode: overlay;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.397);
+    background-size: cover;
+    height: 400px;
+}
+
+.grid-img-two .div {
+    position: absolute;
+    bottom: 0;
+    background-color: #105673;
+    width: 100%;
+}
+
+.grid-img-three {
+    background: url(../images/grid-img-three.jpg);
+    background-blend-mode: overlay;
+    position: relative;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 400px;
+}
+
+.grid-img-three .div {
+    position: absolute;
+    bottom: 0;
+    background-color: #105673;
+    width: 100%;
+}
+
+.grid-img-four {
+    background: url(../images/burj.jpg);
+    position: relative;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.397);
+    background-size: cover;
+    height: 400px;
+}
+
+.grid-img-four .div {
+    position: absolute;
+    bottom: 0;
+    background-color: #105673;
+    width: 100%;
+}
+
+.container-margin {
+    width: 80%;
+    margin: 0px auto !important;
+}
+
+.office-one {
+    background: url(../images/office-one.jpg) no-repeat;
+    background-size: 95% 100%;
+    height: 200px;
+    border-radius: .6rem;
+}
+
+.office-two {
+    background: url(../images/office-two.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: .6rem;
+}
+
+.office-three {
+    background: url(../images/office-three.jpg) no-repeat;
+    background-size: 95% 100%;
+    height: 200px;
+    border-radius: .6rem;
+}
+
+.office-four {
+    background: url(../images/office-four.jfif) no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: .6rem;
+}
+
+.flex-img {
+    border-radius: 50%;
+}
+
+.subscribe-section {
+    background-color: #02526B;
+    width: 50%;
+    margin: 0px auto !important;
+    border-radius: .7rem;
+    color: #fff;
+    padding: 1rem 7rem !important;
+}
+
+.newsletter-div {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#newsletter-input {
+    width: 90%;
+    border: none !important;
+    outline: none;
+    padding: .8rem 0 !important;
+    border-radius: .5rem;
+}
+
+.newsletter-button {
+    background-color: #02526B;
+    outline: none;
+    position: absolute;
+    top: 0.25rem !important;
+    border-radius: 5px;
+    right: 4.8rem;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    cursor: pointer;
+    color: white;
+    transform: translateX(2px);
+}
+
+.newsletter-button:focus {
+    transform: scale(0.9);
+    outline: none;
+}
+
+.customers-box {
+    box-shadow: 0px 0px 8px 2px #929292;
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+footer a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.footer-link {
+    background-color: #c5c5c546;
+}
+
+@media screen and (min-width:992px) and (max-width:1374px) {
+    .collapse ul li {
+        margin-right: 0px !important;
+    }
+    nav ul button {
+        padding: 0px 10px !important;
+        margin-left: 10px !important;
+    }
+}
+
+@media screen and (max-width:1112px) {
+    .positioned-section {
+        width: 100vw !important;
+    }
+    .subscribe-section {
+        background-color: #02526B;
+        width: 100%;
+        margin: 0px auto !important;
+        border-radius: 0rem;
+        color: #fff;
+        padding: 1rem 0rem !important;
+    }
+}
+
+@media screen and (max-width:1120px) {
+    .positioned-section {
+        display: none !important;
+    }
+    .section-one {
+        height: max-content;
+        padding: 0px !important;
+        margin: 0px !important;
+        background-position: 0 0;
+    }
+    #newsletter-input {
+        width: 90%;
+        border-radius: 0;
+        margin: 0px auto !important;
+    }
+    .newsletter-button {
+        right: 2rem;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .navbar-nav .dropdown-menu {
+        position: static;
+        float: none;
+        width: max-content;
+        margin-left: 70px;
+        background: none;
+    }
+    .nav-link {
+        width: max-content !important;
+        padding: .5rem 5rem;
+    }
+    nav ul button {
+        width: max-content !important;
+        margin: 0px auto !important;
+        margin-top: 40px !important;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.158) !important;
+    }
+}
+
+@media screen and (max-width:724px) {
+    .flex-row {
+        flex-direction: column !important;
+    }
+    .carousel {
+        width: 100% !important;
+    }
+    .carousel-item {
+        border-radius: 0rem;
+    }
+    .float-right {
+        margin-right: 3rem !important;
+    }
+    .p-right {
+        margin-right: 0rem !important;
+    }
+    .card-section {
+        padding-top: 0px !important;
+    }
+    .card-section-one {
+        background: url(../images/beach-3.jpg);
+        background-size: cover;
+        height: 80vh;
+        margin-right: 0rem !important;
+        margin-bottom: 3rem !important;
+        position: relative;
+    }
+    .card-section-two {
+        background: url(../images/beach-2.jpg);
+        background-size: cover;
+        height: 80vh;
+        margin-right: 0rem !important;
+        margin-bottom: 3rem !important;
+    }
+    .card-section-three {
+        background: url(../images/beach-1.jpg);
+        background-size: cover;
+        height: 80vh;
+    }
+    .section-main-text {
+        position: absolute;
+        bottom: 0;
+        background-color: #02526B;
+        color: #fff;
+        width: 100%;
+        left: 0rem;
+    }
+    .grid-section {
+        display: block !important;
+        grid-template-columns: 1fr !important;
+        margin-left: 0 !important;
+    }
+    .grid-section~.d-flex {
+        display: block !important;
+    }
+    .office-one {
+        background: url(../images/office-one.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 200px;
+        border-radius: .6rem;
+    }
+    .office-three {
+        background: url(../images/office-one.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 200px;
+        border-radius: .6rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    nav {
+        font-family: 'Dela Gothic One', "cursive" !important;
+        box-shadow: 0px 0px 3px 3px #c5c5c5;
+        padding: 1rem 1rem !important;
+    }
+    .section-one div {
+        padding: 2rem 0px !important;
+        margin: 0px !important;
+    }
+    .section-one div .fa-3x {
+        font-size: larger;
+        text-align: center;
+    }
+    .w-40 {
+        width: 100%;
+        text-align: center;
+    }
+}
